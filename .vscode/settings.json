@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "editor.fontSize": 20,
+    "chat.editor.fontSize": 16,
+    "markdown.preview.fontSize": 18,
+    "terminal.integrated.fontSize": 16,
+    "debug.console.fontSize": 16
+}
