@@ -1,36 +1,36 @@
-# Java Multithreading Theater Booking Simulation
+# Java Multithreading Simulations
 
-## Project Overview
+## Overview
 
-This project is designed to simulate a theater booking process using Java multithreading. The simulation includes patrons booking seats, counters processing bookings concurrently, and ushers guiding patrons to their seats. It serves as a practical demonstration of Java's concurrency framework.
+This repository contains two Java multithreading projects: a theater booking simulation and a flight boarding simulation. These projects demonstrate practical applications of Java's concurrency features in real-world scenarios.
 
-## What You'll Learn
+## Theater Booking Simulation
 
-- **Java Threading Basics**: Understanding of how threads are created and managed in Java.
-- **Concurrency Control**: Use of synchronization techniques like `ReentrantLock` to manage access to shared resources.
-- **Thread Coordination**: How to use `Thread.join()` and other mechanisms to coordinate actions across threads.
-- **Handling Shared Resources**: Safely manage shared resources in multithreaded applications.
-- **Practical Application**: Simulates a real-world task using Java multithreading, showing application of theoretical concepts.
+Simulates a theater booking process with patrons arriving, booking seats, and being guided to their seats. Key components include:
 
-## Project Structure
+- **`Seat`**: Represents theater seats.
+- **`Patron`**: Simulates patrons booking seats.
+- **`TicketCounter`**: Manages booking processes.
+- **`Usher`**: Guides patrons to their allocated seats.
+- **`TheaterSimulation`**: Orchestrates the entire simulation.
 
-- **`Seat` class**: Represents individual seats, tracks their booking status.
-- **`Patron` class**: Simulates a patron arriving and attempting to book a seat.
-- **`TicketCounter` class**: Manages the booking process for seats at a theater.
-- **`Usher` class**: Guides patrons to their confirmed seats.
-- **`TheaterSimulation` class**: Handles the initialization and simulation of the booking process.
+## Flight Boarding Simulation
 
-## Customization
+Models airline check-in and boarding with passengers arriving, checking in, and boarding a flight. Key components include:
 
-- Adjust the number of patrons, counters, ushers, and seats directly in the `TheaterSimulation` class.
-- Modify the random arrival and processing times to explore different concurrency scenarios.
+- **`Passenger`**: Represents passengers checking in and boarding.
+- **`CheckInCounter`**: Handles check-in processes.
+- **`FlightAttendant`**: Manages passenger boarding.
+- **`FlightSimulation`**: Oversees the entire boarding process.
 
 ## Contributions
 
-Feel free to fork the repository, improve the simulation, and submit pull requests for any enhancements or fixes.
+Contributions are welcome! Feel free to fork the repository and submit pull requests for improvements.
 
 ## License
 
-This project is open-source and available under the MIT License. Feel free to use and modify it for your learning or development.
+These projects are open-source under the MIT License. They are free for educational or personal development use.
 
-Enjoy exploring Java multithreading with this simulation challenge!
+---
+
+Explore these projects to enhance your understanding of Java multithreading and concurrency!
